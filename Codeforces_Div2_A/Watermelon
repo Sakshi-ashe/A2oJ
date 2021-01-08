@@ -1,0 +1,29 @@
+public class A_Div2_Watermelon {
+
+	public static void main(String args[]) throws Exception{ 
+		  try{
+		  
+				     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));                     
+				     String nullcheck =  br.readLine();
+				     
+				     if(nullcheck!=null){
+				    	 
+				         int t =  Integer.parseInt(nullcheck);
+				         
+				         //NOTE for w=2 , the two parts will weigh 1-1kg each
+				         if(t>2){
+				        	 if(t%2==0) System.out.println("YES");
+					         else System.out.println("NO");
+				         }
+				              
+				     }
+				     else System.out.println("NO");
+				                                   
+		  	}//try
+		  
+		  catch(Exception e){
+		      return ;
+		    }
+	  
+	}
+}
