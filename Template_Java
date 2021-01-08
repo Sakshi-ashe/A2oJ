@@ -1,0 +1,43 @@
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+
+ public class MyFirstClass
+ {
+   public static void main(String args[]) throws Exception
+   { 
+		     try{
+		       
+			    	 // -- for use purpose --
+			         //StringTokenizer st = new StringTokenizer(br.readLine());
+			         // Integer.parseInt(br.readLine());
+			         // Integer.parseInt(st.nextToken());
+			         // int[] ar = new int[n];
+			    	 
+			    	 //shortcuts
+			    	 //sysout Ctrl+Space System.out.println();
+			     
+			         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));                 
+			         String nullcheck =  br.readLine();
+			         
+			         if(nullcheck!=null){
+			        	 
+			        	 	int t =  Integer.parseInt(nullcheck);
+			            
+				        	 while(t>0){
+				        		 StringTokenizer st = new StringTokenizer(br.readLine());
+				                
+				              
+				        		 t--;
+				        	 }
+			         }                    
+		                   
+		     	}
+		     
+		     	catch(Exception e){
+		     		return ;
+		     	}
+		     
+   }
+ }
+ 
